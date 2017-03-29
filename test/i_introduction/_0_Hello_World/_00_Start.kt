@@ -4,7 +4,11 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class _00_Start {
-    @Test fun testOk() {
+    @Test fun test0Ok() {
         assertEquals("OK", task0())
+    }
+
+    @Test fun test1Ok() {
+        assertEquals("OK", task1());
     }
 }
